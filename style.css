@@ -61,6 +61,39 @@ p {
   line-height: 1.7;
 }
 
+.about {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  text-align: left;
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.about h2 {
+  color: #222;
+  font-size: 1.2em;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.about ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about li {
+  background-color: #ffffff;
+  color: #333;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  line-height: 1.5;
+}
+
 .skills {
   margin-top: 8px;
   text-align: left;
